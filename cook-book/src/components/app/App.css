@@ -1,0 +1,37 @@
+
+.app {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.appImage{
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('/img/pizza-main.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  filter: opacity(0.85);
+}
+
+.appHeader{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.appBtn i{
+  margin-left: 10px;
+}

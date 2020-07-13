@@ -1,0 +1,35 @@
+
+.list-group-recipes-items{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
+    list-style: none;
+    padding: 20px;
+}
+.appBtn{
+    margin: 5px 0;
+}
+.list-group-recipes-items-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inputTextArea{
+    width: 100%;
+    margin-top: 5%;
+    height: 20vh;
+}
+.inputText{
+    width: 100%;
+    margin-top: 5%;
+    height: 10vh;
+}
+textarea:focus, input:focus{
+    outline: none;
+    background-color: lightgray;
+}
+.inputDatePiker {
+    display: flex;
+    flex-direction: column;
+
+}
